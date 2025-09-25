@@ -1,0 +1,119 @@
+:root {
+    --cream: #f5f5dc;
+    --white: #ffffff;
+    --blue: #40e0d0; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+
+.container {
+    margin: 0 2cm;   
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px 30px;
+    background-color: rgb(215, 191, 136);
+    border-radius: 50px; 
+    box-shadow: 0 9px 10px rgba(0,0,0,0.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;          
+    justify-content: space-between;
+}
+
+
+.foto {
+    flex: 1;            
+    display: flex;
+    justify-content: center;
+}
+
+.foto img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+
+.deskripsi {
+    flex: 2;            
+    max-width: none;    
+}
+
+
+
+.pendidikan h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pendidikan-item {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    
+}
+
+.pendidikan-item p {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pendidikan-item img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+
+
+.sosial {
+    text-align: center; 
+}
+
+.sosial h2 {
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sosial img {
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    transition: transform 0.3s;
+}
+
+.sosial img:hover {
+    transform: scale(1.2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
